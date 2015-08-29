@@ -1,0 +1,19 @@
+name: Lifesim
+version: 0.0.2
+author: Jonathan Søyland-Lier
+description: first person life simulator
+homepage: http://www.htmltag.no
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  browser: any
+  dart_to_js_script_rewriter: ^0.1.0
+  sass: '>=0.4.0 <0.5.0'
+  three:
+    git:
+      ref: master
+      url: git://github.com/threeDart/three.dart.git
+dev_dependencies:
+  test: any
+transformers:
+- dart_to_js_script_rewriter
